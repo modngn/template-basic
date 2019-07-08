@@ -1,0 +1,14 @@
+address: player
+properties:
+  x: 0
+  y: 0
+  rotation: 0
+  speed: 400
+  health: 100
+  mana: 100
+client:
+  components:
+    -
+      type: graphic
+      width: 100
+      height: 100

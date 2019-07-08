@@ -1,0 +1,9 @@
+tickRate: 30
+gamePort: 8019
+assetPort: 8080
+
+serverName: Kitties
+serverDescription: ModNGN Example Game
+serverUrl: http://localhost
+
+map: ExampleMap
