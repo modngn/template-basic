@@ -1,4 +1,4 @@
-<p align="center"><img height="200" src="./docs/_media/logo-red.png" /></p>
+<p align="center"><img height="200" src="https://github.com/modngn/modngn/raw/master/docs/_media/logo-red.png" /></p>
 
 <br />
 
