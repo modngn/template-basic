@@ -9,9 +9,6 @@
   <a href="https://discord.gg">
     <img src="https://img.shields.io/badge/%20-discord-7289DA.svg?&longCache=true&style=for-the-badge" alt="Discord" />
   </a>
-  <a href="https://nomjs.com/org/modngn">
-    <img src="https://img.shields.io/npm/dt/modngn/server.svg?style=for-the-badge" alt="npm" />
-  </a>
   <a href="https://github.com/modngn/modngn/releases">
     <img src="https://img.shields.io/github/release/modngn/template-basic.svg?&longCache=true&style=for-the-badge" alt="Version" />
   </a>
@@ -31,13 +28,11 @@ starting place for a very custom project. All you need to do is remove the react
 imports from `client/index.html` and the JSON view instantiation from
 `client/Client.js`.
 
-
 ## Installation
 
 1. Download the modngn cli `npm i -g @modngn/cli`
 2. Create a project from this template `modngn init app -t modngn/template-basic`
 3. Start the app in dev mode `cd app && npm run dev`
-
 
 <br />
 
