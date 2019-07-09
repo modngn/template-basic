@@ -2,7 +2,7 @@
 "*":
   core: {
     customFileTypes:
-      'source.<%= format %>': [
+      'source.{{name}}': [
         'mod',
         'patch'
       ]

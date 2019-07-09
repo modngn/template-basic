@@ -1,5 +1,5 @@
 {
-  "name": "<%= name %>",
+  "name": "{{name}}",
   "version": "0.0.1",
   "description": "Moddable 2D Multiplayer Game Built on ModNGN",
   "scripts": {
