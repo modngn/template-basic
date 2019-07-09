@@ -1,7 +1,8 @@
+# Add your datum types here for easy language switching in atom.
 "*":
   core: {
     customFileTypes:
-      'source.yaml': [
+      'source.<%= format %>': [
         'mod',
         'patch'
       ]
