@@ -6,7 +6,7 @@
   <a href="https://modngn.github.io/modngn">
     <img src="https://img.shields.io/badge/%20-docs-lightgrey.svg?&longCache=true&style=for-the-badge" alt="Docs" />
   </a>
-  <a href="https://discord.gg">
+  <a href="https://discord.gg/DN3m7N2">
     <img src="https://img.shields.io/badge/%20-discord-7289DA.svg?&longCache=true&style=for-the-badge" alt="Discord" />
   </a>
   <a href="https://github.com/modngn/modngn/releases">
