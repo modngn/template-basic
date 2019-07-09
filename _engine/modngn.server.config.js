@@ -4,7 +4,7 @@ import PublicFilesPlugin from '@modngn/plugin-public-files'
 export default {
   modLanguage: 'yaml',
   configFolder: join(__dirname, '../configs'),
-  vanillaFolder: join(__dirname, './common/datum'),
+  vanillaFolder: join(__dirname, './common/vanilla'),
   modsFolder: join(__dirname, './public'),
   datumExtensions: [ 'entity' ],
   plugins: [

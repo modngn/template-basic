@@ -1,0 +1,16 @@
+# Patch to double the size of the player character
+-
+  patch:
+    -
+      -
+        op: test
+        address: player
+      -
+        op: replace
+        address: player.components
+        value:
+          -
+            name: body
+            component: graphic
+            width: 200
+            height: 200
