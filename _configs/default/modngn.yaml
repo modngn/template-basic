@@ -1,2 +1,9 @@
 modsFolder: mods
+
+port: 8080
+https: false
+httpsOptions:
+  certPath:
+  keyPath:
+
 benchmark: false
