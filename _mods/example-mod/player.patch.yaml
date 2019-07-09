@@ -7,7 +7,7 @@
         address: player
       -
         op: replace
-        address: player.components
+        address: player.client.components
         value:
           -
             name: body
