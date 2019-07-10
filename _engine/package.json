@@ -2,13 +2,14 @@
   "name": "{{name}}",
   "version": "0.0.1",
   "description": "Moddable 2D Multiplayer Game Built on ModNGN",
+  "private": true,
   "scripts": {
     "start": "concurrently \"npm run start:client\" \"npm run start:server\"",
     "start:client": "node -r esm ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --config webpack.dev.js",
     "start:server": "nodemon --inspect ./server/index.js --ignore public/",
     "build": "node -r esm ./node_modules/webpack/bin/webpack --config webpack.prod.js"
   },
-  "author": "Randy Lebeau <github/supremetechnopriest>",
+  "author": "{{user}}",
   "license": "MPL-2.0",
   "dependencies": {
     "@modngn/client": "0.0.x",
