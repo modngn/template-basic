@@ -5,7 +5,7 @@ export default {
   modLanguage: '{{format}}',
   configFolder: join(__dirname, '../configs'),
   vanillaFolder: join(__dirname, './common/vanilla'),
-  modsFolder: join(__dirname, './public'),
+  modsFolder: join(__dirname, '../mods'),
   datumExtensions: [ 'entity' ],
   plugins: [
     new PublicFilesPlugin({
