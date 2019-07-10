@@ -31,7 +31,7 @@ imports from `client/index.html` and the JSON view instantiation from
 ## Installation
 
 1. Download the modngn cli `npm i -g @modngn/cli`
-2. Create a project from this template `modngn init app -t modngn/template-basic`
+2. Create a project from this template `modngn create appname -t modngn/template-basic`
 3. Start the app in dev mode `cd app && npm run dev`
 
 <br />
