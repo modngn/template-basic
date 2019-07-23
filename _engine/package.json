@@ -9,8 +9,7 @@
   "pkg": {
     "scripts": "./builds/server/index.js",
     "assets": [
-      "./common/vanilla/**",
-      "./node_modules/@modngn/server/logo.png"
+      "./common/vanilla/**"
     ]
   },
   "main": "./client/electron.js",
