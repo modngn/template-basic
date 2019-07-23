@@ -1,5 +1,5 @@
 import { resolve } from 'path'
-import AddressLoaderPlugin from '@modngn/plugin-path-loader'
+import AddressLoaderPlugin from '@modngn/plugin-address-loader'
 import PublicFilesPlugin from '@modngn/plugin-public-files'
 
 const modLanguage = '{{format}}'

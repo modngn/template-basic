@@ -58,7 +58,7 @@
   "scripts": {
     "start": "concurrently \"npm run start:client\" \"npm run start:server\"",
     "start:client": "node -r esm ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --config webpack.dev.js",
-    "start:server": "nodemon --inspect ./server/index.js --ignore public/",
+    "start:server": "cross-env NODE_ENV=development nodemon --inspect ./server/index.js --ignore public/",
     "build": "rimraf ./dist ./builds && npm run build:server && npm run build:client",
     "prebuild:server": "rollup -c",
     "build:server": "pkg . --out-path ./dist/server",
@@ -74,6 +74,7 @@
   "devDependencies": {
     "@modngn/client": "^0.0.x",
     "concurrently": "^4.1.0",
+    "cross-env": "^5.2.0",
     "electron": "^5.0.6",
     "electron-builder": "^21.0.15",
     "electron-log": "^3.0.6",
