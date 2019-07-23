@@ -2,7 +2,7 @@ import { resolve } from 'path'
 import AddressLoaderPlugin from '@modngn/plugin-path-loader'
 import PublicFilesPlugin from '@modngn/plugin-public-files'
 
-const modLanguage = 'yaml'
+const modLanguage = '{{format}}'
 const isDev = process.env.NODE_ENV === 'development'
 const root = isDev ? __dirname : process.cwd()
 const vanillaFolder = isDev ? resolve('./common/vanilla') : resolve('/snapshot/engine/common/vanilla')

@@ -1,9 +1,9 @@
 {
-  "name": "modngn-basic",
+  "name": "{{name}}",
   "version": "0.0.1",
   "description": "Moddable 2D Multiplayer Game Built on ModNGN",
   "private": true,
-  "author": "modngn",
+  "author": "{{user}}",
   "license": "MPL-2.0",
   "bin": "./builds/server/index.js",
   "pkg": {
@@ -19,8 +19,8 @@
     "url": "git+https://github.com/modngn/template-basic.git"
   },
   "build": {
-    "appId": "com.modngn.basic",
-    "productName": "ModNGN Basic",
+    "appId": "com.{{user}}.{{name}}",
+    "productName": "{{name}}",
     "directories": {
       "output": "./dist/client",
       "buildResources": "./client/assets"
