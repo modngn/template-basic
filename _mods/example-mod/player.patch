@@ -1,0 +1,15 @@
+# Patch to double the size of the player character
+patch:
+  -
+    -
+      op: test
+      address: player.entity
+    -
+      op: replace
+      address: player.entity.client.components
+      value:
+        -
+          name: body
+          component: graphic
+          width: 200
+          height: 200

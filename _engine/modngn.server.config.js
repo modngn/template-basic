@@ -1,16 +1,23 @@
-import { join } from 'path'
+import { resolve } from 'path'
+import AddressLoaderPlugin from '@modngn/plugin-path-loader'
 import PublicFilesPlugin from '@modngn/plugin-public-files'
 
+const modLanguage = 'yaml'
+const isDev = process.env.NODE_ENV === 'development'
+const root = isDev ? __dirname : process.cwd()
+const vanillaFolder = isDev ? resolve('./common/vanilla') : resolve('/snapshot/engine/common/vanilla')
+const modsFolder = isDev ? resolve(root, '../mods') : resolve(root, 'mods')
+const configFolder = isDev ? resolve(root, '../configs') : resolve(root, 'configs')
+const publicFolder = resolve(root, './public')
+
 export default {
-  modLanguage: '{{format}}',
-  configFolder: join(__dirname, '../configs'),
-  vanillaFolder: join(__dirname, './common/vanilla'),
-  modsFolder: join(__dirname, '../mods'),
-  datumExtensions: [ 'entity' ],
+  modLanguage,
+  vanillaFolder,
+  modsFolder,
+  configFolder,
+  publicFolder,
   plugins: [
-    new PublicFilesPlugin({
-      publicFolder: join(__dirname, './public'),
-      publicKeys: [ 'client', 'resources' ]
-    })
+    new AddressLoaderPlugin(),
+    new PublicFilesPlugin()
   ]
 }

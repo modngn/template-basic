@@ -2,7 +2,7 @@
 "*":
   core: {
     customFileTypes:
-      'source.{{name}}': [
+      'source.app': [
         'mod',
         'patch'
       ]
